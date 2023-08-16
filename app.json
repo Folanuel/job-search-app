@@ -5,6 +5,23 @@
       "bundler": "metro"
     },
     "name": "job-search-mobile-app",
-    "slug": "job-search-mobile-app"
+    "slug": "job-search-mobile-app",
+    "extra": {
+      "eas": {
+        "projectId": "2aed8e79-fe9f-407c-98c0-3e832cfe0c32"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2aed8e79-fe9f-407c-98c0-3e832cfe0c32"
+    },
+    "android": {
+      "package": "com.folarin99.jobsearchmobileapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.folarin99.jobsearchmobileapp"
+    }
   }
 }
